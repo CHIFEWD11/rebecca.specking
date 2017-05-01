@@ -1,0 +1,58 @@
+.box {
+	height: 70px;
+	width: 100%;
+	background-color: #870000;
+}
+
+img {
+	height: 72px;
+	float: left;
+
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	width: auto;
+}
+
+body {
+	background-color: #F1F2EA;
+}
+
+tr {
+	height: 22px;
+}
+
+th {
+	width: 45px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+}
+ul li {
+	display: inline-block;
+	position: relative;
+}
+
+ul {
+	left: 0;
+	top: 40px;
+	width: 200px;
+}
+
+ul.sub-menu {
+	display: none;
+}
