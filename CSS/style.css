@@ -47,6 +47,10 @@ button.add{
 	height: 20px;
 	width: 47px;
 	cursor: pointer;
+	border: 1px solid;
+	border-radius: 5px;
+	margin-right: 4px;
+	box-shadow: 5px 5px 15px #888888;
 }
 
 table.date {
@@ -57,6 +61,7 @@ table.date {
     border-style: solid;
     border-color: gray;
     background-color: gray;
+    border-radius: 10px;
     color: white;
     height: 60px;
     position: relative;
@@ -137,10 +142,18 @@ ul.headlink {
     display: inline;
 }
 
+ul.headlink {
+	margin-right: 116px;
+}
 li.nav {
 	display: inline;
-	margin-right: 100px;
-	    box-shadow: 3px 3px 13px #888888;
+	margin-right: 57px;
+	background: rgba(135, 25, 25, 0.4);
+	border: 1px solid;
+	border-color: #870000;
+	border-radius: 5px;
+    padding: 3px;
+	box-shadow: 3px 3px 13px #888888;
 }
 
 
@@ -156,6 +169,7 @@ table.entry {
     margin-bottom: 20px;
     border-width: 2px;
     border-style: solid;
+    border-color: #870000;
     padding: 10px;
     background-color: white;
 }
@@ -169,7 +183,7 @@ table.total {
     margin-right: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: gray;
+    border-color: #870000;
     padding: 10px;
     text-align: center;
     background-color: white;
@@ -196,6 +210,7 @@ div.buttonfamily {
     height: 60px;
     width: 177px;
     border: 1px solid gray;
+    border-radius: 10px;
     margin-left: 675px;
     margin-top: 18px;
     background-color: gray;

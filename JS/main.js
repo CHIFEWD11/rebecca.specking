@@ -40,7 +40,7 @@ $( document ).ready(function(){
     		$(this).css({"padding-top": '4px'})
     		$(this).css({"padding-bottom": '4px'})
 
-    		$('td.project').click(
+    		$('td.project2').click(
     			function(){
     				$('ul.dropdown').show();
 
@@ -128,7 +128,7 @@ $(function(){
 
 	var newRow =
 		$('<tr><td class=empty></td>' + 
-			counter + '<td class=project>Select Project</td>' +
+			counter + '<td class=project2>Select Project</td>' +
 			counter + '<td><input type="number" name="time1" id="time8" placeholder="0" min="0" max="24" value="0"/></td>' + 
 			counter + '<td><input type="number" name="time2" id="time9" placeholder="0" min="0" max="24" value="0"></td>' + 
 			counter + '<td><input type="number" name="time3" id="time10" placeholder="0" min="0" max="24" value="0"></td>' +
